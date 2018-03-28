@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_admin">عسلامة</string>
+    <string name="description_title">شنوة لازمك تعرف على صدرك؟ </string>
+    <string name="logout_btn">خروج</string>
+    <string name="btn_link_to_register">ما عندكش كونط؟</string>
+    <string name="btn_login">دخول</string>
+    <string name="hint_password">كلمة السر</string>
+    <string name="menopause_fieled">انقطاع الحيض</string>
+    <string name="action_sign_in">إنشاء حساب</string>
+    <string name="title_activity_super_admin_profile">SuperAdminProfileActivity</string>
+    <string name="title_home">الصفحة الرئيسية</string>
+    <string name="title_notifications">إعلامات</string>
+    <string name="my_account">حسابي</string>
+    <string name="title_control">قائمة العملاء</string>
+    <string name="title_periode">دورتي الشهرية</string>
+    <string name="title_add">زيد حارزة</string>
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="hint_birthday">يوم عيدالميلاد</string>
+    <string name="hint_firstname">الاسم</string>
+    <string name="hint_lastname">اللقب</string>
+    <string name="hint_nb_children">عدد الاطفال</string>
+    <string name="sign_up_error">فشل التسجيل</string>
+    <string name="facebook_app_id">224777011412936</string>
+    <string name="log_out_btn">خروج</string>
+    <string name="periode_length">طول دورتي الشهرية</string>
+    <string name="periode_cycle">طول دورتي الشهرية</string>
+    <string name="validate_periode">تحقق</string>
+    <string name="loading">ستنا شوية...</string>
+    <string name="token_permission_title">Token Permission</string>
+    <string name="token_permission_body">This app needs the Token permission, please accept to use this functionality.</string>
+    <string name="calendar_permission_title">Calendar Permission</string>
+    <string name="calendar_permission_body">This app needs the Calendar permission, please accept to use calendar functionality.</string>
+    <string name="start_period_event">بداية الدورة الشهرية</string>
+    <string name="end_period_event">نهايةالدورةالشهرية</string>
+    <string name="remove_period_event">حذف الدورةالشهرية </string>
+    <string name="wait_msg">ستنا شوية...</string>
+    <string name="invalid_field">ايمايل غالط.</string>
+    <string name="signup_valid">.تم التحقق بنجاح.</string>
+    <string name="verify_field">تحقق من المعلومات التي أدخلتها.</string>
+    <string name="title_how"></string>
+    <string name="first_step_desc">Step 1 Find a mirror to start</string>
+    <string name="step_two_desc">Step 2 Cover your entire breast up and down</string>
+    <string name="step_three_desc">Step 3 Lastly squeeze each nipple.</string>
+    <string name="period_details">مزيد من المعلومات عن الدورة الشهرية</string>
+    <string name="action_logout">خروج</string>
+    <string name="create_event">Create a remainder</string>
+    <string name="control_date">Control date</string>
+    <string name="first_tip"> أحسن وقت تنجم تتفقد فيه صدرك هو جمعة (أسبوع) بعد الحيض </string>
+       <string name="second_tip">لازم تكون العملية في نفس الفترة من كل دورة و هذى يعاونك بش تعرف الحالة الطبيعية أي الشكل و اللون و الحجم الطبيعي متع صدرك
+       </string>
+       <string name="third_tip">             بش كان صار تغيير تفيق بيه على بكري و بالطبيعة في حال لاحظت أي علامات غير عادية لازمك تكلم طبيبك على الفور --> الوعي
+       </string>
+       <string name="conclusion">صحيح الي نحنا النسا نخافو من الحالات هاذم أما زادا لازم نكونو منبهين و نتعرفو بعقلانية و نحافظوا على صحتنا على خاتر العوارض الغير عادية تنجم تكون ماهيش مخطرة ، و حتى كان طلعت مخطرة نفيقو بيها و نعالجوها في اقرب الآجال هو التصرف السليم
+       </string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1040341453557",
+    "firebase_url": "https://zoozfmt.firebaseio.com",
+    "project_id": "zoozfmt",
+    "storage_bucket": "zoozfmt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040341453557:android:3e3a990d5d50ac8f",
+        "android_client_info": {
+          "package_name": "tn.rnu.fmt.zoozfmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040341453557-1n3ui72huefftt1al8r19siddsf7ickd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.rnu.fmt.zoozfmt",
+            "certificate_hash": "05146101fadebfa68341bb2a4ec85f3986c11adc"
+          }
+        },
+        {
+          "client_id": "1040341453557-hmp8cdij7noser97k5kattnpu1dkvvuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7dJSUWSb9oKjJ1b-aceUs-VNUqyP55JU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040341453557-hmp8cdij7noser97k5kattnpu1dkvvuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

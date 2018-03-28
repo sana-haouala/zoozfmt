@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tn.rnu.fmt.zoozfmt">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Admin.AdminProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Client.SignUpClientActivity" />
+        <activity android:name=".Client.ClientProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Admin.CreateAdminActivity" />
+        <activity
+            android:name=".SuperAdminProfileActivity"
+            android:label="@string/title_activity_super_admin_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Client.ClientPeriodActivity" />
+        <activity android:name=".Admin.ListCheckedClientActivity" />
+        <activity android:name=".Client.ClientPeriodDetailsActivity" />
+        <activity
+            android:name=".Client.LearnHowActivity"
+            android:label="@string/title_activity_learn_how"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

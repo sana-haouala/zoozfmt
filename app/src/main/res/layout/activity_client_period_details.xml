@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tn.rnu.fmt.zoozfmt.Client.ClientPeriodDetailsActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/period_details"
+            android:textColor="#000"
+            android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/periode_length"
+            android:layout_marginTop="40dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/periode_length"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            app:initialNumber="1">
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/periode_cycle"
+            android:layout_marginTop="40dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"/>
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/cycle_length"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            app:initialNumber="28"
+            app:finalNumber="34">
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/validate_periode_btn"
+        android:text="@string/validate_periode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@color/pinkButton"/>
+
+</LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
