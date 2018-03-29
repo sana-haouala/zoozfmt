@@ -69,11 +69,11 @@ public class ClientProfileActivity extends AppCompatActivity {
 
         key = intent.getStringExtra("key");
 
-        /*eName.setText(getString(R.string.description_title));
-        eEmail.setText(getString(R.string.first_tip));
-        eBirthday.setText(getString(R.string.second_tip));
-        ePhone.setText(getString(R.string.third_tip));
-        eNbChildren.setText(getString(R.string.conclusion));*/
+        eEmail.setText("شنوة لازمك تعرف على صدرك؟"+"\n"+
+        "أحسن وقت تنجم تتفقد فيه صدرك هو جمعة (أسبوع) بعد الحيض"+"\n"+
+        "لازم تكون العملية في نفس الفترة من كل دورة و هذى يعاونك بش تعرف الحالة الطبيعية أي الشكل و اللون و الحجم الطبيعي متع صدرك"+"\n"+
+        "بش كان صار تغيير تفيق بيه على بكري و بالطبيعة في حال لاحظت أي علامات غير عادية لازمك تكلم طبيبك على الفور --> الوعي"+"\n"+
+        "صحيح الي نحنا النسا نخافو من الحالات هاذم أما زادا لازم نكونو منبهين و نتعرفو بعقلانية و نحافظوا على صحتنا على خاتر العوارض الغير عادية تنجم تكون ماهيش مخطرة ، و حتى كان طلعت مخطرة نفيقو بيها و نعالجوها في اقرب الآجال هو التصرف السليم");
     }
 
     @Override
@@ -100,6 +100,4 @@ public class ClientProfileActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-
 }

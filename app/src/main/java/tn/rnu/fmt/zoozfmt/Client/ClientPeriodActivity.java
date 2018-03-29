@@ -82,6 +82,7 @@ public class ClientPeriodActivity extends AppCompatActivity {
         compactCalendar.setListener(new CompactCalendarView.CompactCalendarViewListener() {
             @Override
             public void onDayClick(Date dateClicked) {
+
                 if ((ContextCompat.checkSelfPermission(ClientPeriodActivity.this,
                         Manifest.permission.READ_CALENDAR) == PackageManager.PERMISSION_GRANTED)
                         &&

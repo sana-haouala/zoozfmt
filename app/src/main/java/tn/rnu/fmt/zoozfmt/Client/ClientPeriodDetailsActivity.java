@@ -62,11 +62,11 @@ public class ClientPeriodDetailsActivity extends AppCompatActivity {
         DatabaseReference mLengthCy = mChildRef.child("Length Cycle");
         String num2 = cycleLength.getNumber();
         mLengthCy.setValue(num2);
-        mProgressDialog.dismiss();
         Intent intent = new Intent(this,ClientPeriodActivity.class);
         intent.putExtra("key",key);
         intent.putExtra("periodLength",Integer.parseInt(num1));
         intent.putExtra("cycleLength",Integer.parseInt(num2));
         startActivity(intent);
+        mProgressDialog.dismiss();
     }
 }

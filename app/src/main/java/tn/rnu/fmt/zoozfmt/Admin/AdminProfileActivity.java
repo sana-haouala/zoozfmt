@@ -22,13 +22,6 @@ public class AdminProfileActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
-    //get values from intent
-    private final String firstName = i.getStringExtra("firstName");
-    private final String lastName = i.getStringExtra("lastName");
-    private final String email = i.getStringExtra("email");
-    private final String phone = i.getStringExtra("phone");
-    private final String password = i.getStringExtra("password");
-    private TextView mTextMessage;
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
